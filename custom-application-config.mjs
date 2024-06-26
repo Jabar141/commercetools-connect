@@ -22,8 +22,8 @@ const config = {
       initialProjectKey: 'honda-demo',
     },
     production: {
-      applicationId: 'clwsm4il2006rbxekr1hwtkco',
-      url: 'https://ct-custom-attributes-main.vercel.app',
+      applicationId: 'clxvehcqz001811rzbnir3gq7',
+      url: 'https://connect-honda-poc.com',
     },
   },
   oAuthScopes: {
