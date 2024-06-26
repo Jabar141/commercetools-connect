@@ -1,9 +1,0 @@
-mutation createCustomObject($createCustomObject: CustomObjectDraft!) {
-  createOrUpdateCustomObject(draft: $createCustomObject) {
-    container
-    key
-    id
-    value
-    version
-  }
-}
