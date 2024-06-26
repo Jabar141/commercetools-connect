@@ -4,10 +4,10 @@ import { PERMISSIONS, entryPointUriPath } from './src/constants';
  * @type {import('@commercetools-frontend/application-config').ConfigOptionsForCustomApplication}
  */
 const config = {
-  name: 'honda-custom-app',
+  name: 'honda-custom-app-connect',
   entryPointUriPath,
-  mcApiUrl: "https://mc.europe-west1.gcp.commercetools.com/honda-demo",
-  cloudIdentifier: 'gcp-eu',
+  mcApiUrl: "https://mc.europe-west1.gcp.commercetools.com/honda-poc",
+  cloudIdentifier: 'gcp-us',
   headers: {
     csp: {
       "connect-src": [
@@ -19,7 +19,7 @@ const config = {
   },
   env: {
     development: {
-      initialProjectKey: 'honda-demo',
+      initialProjectKey: 'honda-poc',
     },
     production: {
       applicationId: 'clxvehcqz001811rzbnir3gq7',
