@@ -22,7 +22,7 @@ const config = {
       initialProjectKey: 'honda-poc',
     },
     production: {
-      applicationId: 'clxvehcqz001811rzbnir3gq7',
+      applicationId: 'clwsm4il2006rbxekr1hwtkco',
       url: 'https://connect-honda-poc.com',
     },
   },
