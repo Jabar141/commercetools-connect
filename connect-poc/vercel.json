@@ -1,0 +1,11 @@
+{
+    "public": true,
+    "alias": "ct-custom-attributes-main.vercel",
+    "builds": [
+      { "src": "package.json", "use": "@now/static-build" }
+    ],
+    "routes": [
+      { "handle": "filesystem" },
+      { "src": ".*", "dest": "/" }
+    ]
+  }

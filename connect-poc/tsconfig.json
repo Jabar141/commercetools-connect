@@ -1,0 +1,10 @@
+{
+  "extends": "@commercetools-frontend/application-config/tsconfig-mc-app.json",
+  "compilerOptions": {
+    "typeRoots": ["connect-poc/@types", "connect-poc/@types-extensions", "node_modules/@types"],
+    "allowJs": true,
+    // Allow tsc to resolve dependencies of `@types` packages in the way pnpm sets up the `node_modules`.
+    "preserveSymlinks": false
+  },
+  "include": ["connect-poc/src"]
+}
